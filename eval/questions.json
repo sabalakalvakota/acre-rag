@@ -1,0 +1,57 @@
+[
+  {
+    "id": "nim-quarter",
+    "question": "What was the net interest margin this quarter?",
+    "expected": "Approximately $8.6 million for the three months ended June 30, 2026 (vs. $7.0 million in 2025).",
+    "must_contain_any": ["8.6"],
+    "evidence": "For the three months ended June 30, 2026 and 2025, net interest margin was approximately $8.6 million"
+  },
+  {
+    "id": "non-accrual",
+    "question": "Which loans are on non-accrual status?",
+    "expected": "Three loans held for investment, with a Carrying Value of $287.3 million (one is the California subordinated C-Note).",
+    "must_contain_any": ["287.3"],
+    "evidence": "the Company had three loans held for investment on non-accrual status with a Carrying Value of $287.3 million"
+  },
+  {
+    "id": "dividend-q2",
+    "question": "What dividend per share was declared for the quarter?",
+    "expected": "$0.15 per share, declared May 7, 2026 (record date June 30, payable July 15, 2026).",
+    "must_contain_any": ["0.15"],
+    "evidence": "May 7, 2026 | June 30, 2026 | July 15, 2026 | $0.15"
+  },
+  {
+    "id": "loans-carrying-value",
+    "question": "What was the total carrying value of loans held for investment at June 30, 2026?",
+    "expected": "$1,748,835 thousand, about $1.75 billion.",
+    "must_contain_any": ["1,748,835", "1748835", "1.75 billion", "1.7 billion"],
+    "evidence": "Total loans held for investment portfolio | $1,748,835"
+  },
+  {
+    "id": "cecl-reserve",
+    "question": "How large is the current expected credit loss (CECL) reserve?",
+    "expected": "$139.1 million for loans held for investment ($137.8 million against outstanding balances, $1.3 million for unfunded commitments).",
+    "must_contain_any": ["139.1"],
+    "evidence": "CECL Reserve for its loans held for investment portfolio is $139.1 million"
+  },
+  {
+    "id": "loan-count",
+    "question": "How many loans held for investment were in the portfolio at June 30, 2026?",
+    "expected": "38 loans.",
+    "must_contain_any": ["38"],
+    "evidence": "portfolio included 38 loans held for investment"
+  },
+  {
+    "id": "borrowings-quarter",
+    "question": "What were the weighted average borrowings for the three months ended June 30, 2026?",
+    "expected": "$1.3 billion (vs. $0.9 billion in 2025).",
+    "must_contain_any": ["1.3 billion"],
+    "evidence": "for the three months ended June 30, 2026 and 2025 were $1.3 billion and $0.9 billion"
+  },
+  {
+    "id": "auditor",
+    "question": "Who is the company's auditor?",
+    "expected": "Not in this 10-Q, so the right answer is 'Not found'.",
+    "expect_not_found": true
+  }
+]

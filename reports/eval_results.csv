@@ -1,0 +1,25 @@
+setup,id,retrieval_hit,correct,passed_checks,attempts,seconds,answer,sources,problems
+fixed · v1,nim-quarter,True,True,True,2,24.9,"The net interest margin for this quarter, which refers to the three months ended June 30, 2026, was approximately $8.6 million. This information is derived from the excerpt [fixed-0180].",fixed-0180,
+fixed · v1,non-accrual,True,True,True,2,23.7,"As of June 30, 2026, the Company had three loans held for investment on non-accrual status with a Carrying Value of $287.3 million [fixed-0063]. As of December 31, 2025, the Company had four loans held for investment on non-accrual status with a Carrying Value of $308.1 million [fixed-0063]. Additionally, as of June 30, 2026, the subordinated C-Note was on non-accrual status [fixed-0075]. Not found in the provided excerpts.","fixed-0063, fixed-0063, fixed-0075",
+fixed · v1,dividend-q2,True,True,True,2,17.1,"The dividend per share declared for the quarter was $0.15 per common share. This information is found in the excerpt [fixed-0161], which states: ""The Company’s board of directors declared a regular cash dividend of $0.15 per common share for the third quarter of 2026.""",fixed-0161,
+fixed · v1,loans-carrying-value,True,True,False,2,19.1,"The total carrying value of loans held for investment at June 30, 2026, was $1,748,835,000. This information is found in the excerpt [fixed-0281].",fixed-0281,numbers not in the excerpts: ['1748835000']
+fixed · v1,cecl-reserve,True,True,True,1,13.4,"The current expected credit loss (CECL) reserve as of June 30, 2026, is $139.1 million. This information is found in the excerpt [fixed-0071].",fixed-0071,
+fixed · v1,loan-count,True,True,True,1,13.9,"As of June 30, 2026, the portfolio included 38 loans held for investment. [fixed-0174]",fixed-0174,
+fixed · v1,borrowings-quarter,True,True,True,1,14.5,"The weighted average borrowings for the three months ended June 30, 2026, were $1.3 billion. [fixed-0180]",fixed-0180,
+fixed · v1,auditor,,True,True,1,10.5,Not found in the provided excerpts.,,
+fixed · v2,nim-quarter,True,True,False,2,22.0,"The net interest margin for Ares Commercial Real Estate Corporation for the three months ended June 30, 2026 was approximately $8.6 million.",fixed-0047,quote not found word for word in the cited excerpt
+fixed · v2,non-accrual,True,False,True,2,26.2,"As of June 30, 2026, there were three loans held for investment on non-accrual status. As of December 31, 2025, there were four loans held for investment on non-accrual status.",fixed-0063,
+fixed · v2,dividend-q2,True,True,True,2,19.5,The dividend per share declared for the quarter was $0.15.,fixed-0161,
+fixed · v2,loans-carrying-value,True,True,False,2,28.0,"The total carrying value of loans held for investment at June 30, 2026, was $1,748,835.",fixed-0281,quote not found word for word in the cited excerpt
+fixed · v2,cecl-reserve,True,True,True,1,21.5,The current expected credit loss (CECL) reserve is $139.1 million.,fixed-0071,
+fixed · v2,loan-count,True,True,True,1,19.3,"There were 38 loans held for investment in the portfolio at June 30, 2026.",fixed-0174,
+fixed · v2,borrowings-quarter,True,True,False,2,27.0,"The weighted average borrowings for the three months ended June 30, 2026, were $1.3 billion.",fixed-0180,quote not found word for word in the cited excerpt
+fixed · v2,auditor,,True,True,1,9.6,Not found in the provided excerpts.,,
+semantic · v2,nim-quarter,True,True,False,2,78.8,"The net interest margin for this quarter (three months ended June 30, 2026) was approximately $8.6 million. SOURCE: [semantic-0185]",,did not follow the QUOTE / SOURCE / ANSWER format; no excerpt id cited; quote not found word for word in the cited excerpt
+semantic · v2,non-accrual,True,False,False,2,28.5,"As of June 30, 2026, three loans held for investment were on non-accrual status. As of December 31, 2025, four loans held for investment were on non-accrual status.",semantic-0061,quote not found word for word in the cited excerpt
+semantic · v2,dividend-q2,True,True,False,2,45.7,The dividend per share declared for the quarter was $0.15. SOURCE: [semantic-0149],,did not follow the QUOTE / SOURCE / ANSWER format; no excerpt id cited; quote not found word for word in the cited excerpt
+semantic · v2,loans-carrying-value,True,True,False,2,23.7,"The total carrying value of loans held for investment at June 30, 2026, was $1,748,835 thousand.",semantic-0046,quote not found word for word in the cited excerpt
+semantic · v2,cecl-reserve,False,False,False,2,20.0,"The current expected credit loss (CECL) reserve as of June 30, 2026, is $137,810 thousand.",semantic-0296,quote not found word for word in the cited excerpt
+semantic · v2,loan-count,True,True,True,1,20.2,"There were 38 loans held for investment in the portfolio at June 30, 2026.",semantic-0046,
+semantic · v2,borrowings-quarter,True,True,False,2,24.5,"The weighted average borrowings for the three months ended June 30, 2026, were $1.3 billion.",semantic-0185,quote not found word for word in the cited excerpt
+semantic · v2,auditor,,True,True,1,8.6,Not found in the provided excerpts.,,

@@ -1,0 +1,16 @@
+ipykernel
+langchain
+langgraph
+langchain-text-splitters
+langchain-experimental
+langchain-ollama
+langchain-huggingface
+sentence-transformers
+langchain-chroma
+requests
+beautifulsoup4
+lxml
+pandas
+matplotlib
+python-dotenv
+streamlit
